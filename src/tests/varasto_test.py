@@ -66,5 +66,4 @@ class TestVarasto(unittest.TestCase):
         self.varasto.ota_varastosta(-10)
 
     def test_string(self):
-        self.varasto.__str__()
-
+        print(self.varasto)
