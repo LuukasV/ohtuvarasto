@@ -17,8 +17,8 @@ disable=raw-checker-failed,
         missing-class-docstring
 
 [FORMAT]
+ignore-long-lines="^\\s*(# )?<?https?://\\S+>?$"
 max-line-length=80
-ignore-long-lines = "^\\s*(# )?<?https?://\\S+>?$"
 
 [REFACTORING]
 max-nested-blocks=2
